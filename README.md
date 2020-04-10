@@ -1,5 +1,6 @@
 # text-data-augmentation 
 ### 两个文本数据增强方法
+
 - 回译：用的百度api，支持字符串和list传入
 ```python
 import tda
@@ -21,3 +22,6 @@ s2 = ['我是需要翻译的我需要超过10个词，一定要超过10个词',
 r1 = tda.eda(s1)
 r2 = tda.eda(s2)
  ```
+
+### 安装方法  
+pip install git+https://github.com/renmada/text-data-augmentation.git
