@@ -4,7 +4,8 @@ import synonyms
 import jieba
 import os
 
-stopwords = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stop.txt')).read().split('\n')
+stopwords = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'stop.txt'),
+                 encoding='utf8').read().split('\n')
 max_try = 10
 syn_finder = synonyms.nearby
 

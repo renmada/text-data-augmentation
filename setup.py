@@ -7,7 +7,7 @@ setup(
     version='1.0',
     author='renmada',
     packages=find_packages(),
-    install_requires=['synonyms'],
+    install_requires=['synonyms', 'tqdm'],
     package_data={
         '': ['*.txt']
     }
